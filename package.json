@@ -1,0 +1,50 @@
+{
+  "name": "simple-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config ./webpack.config.js --mode development --host localhost --env=flavor=DEV",
+    "build:dev": "webpack --config ./webpack.config.js --mode production --env=flavor=DEV",
+    "build:uat": "webpack --config ./webpack.config.js --mode production --env=flavor=UAT",
+    "build:prod": "webpack --config ./webpack.config.js --mode production --env=flavor=PROD"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@types/node": "^18.0.0",
+    "@types/react-dom": "^18.0.5",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.1",
+    "dotenv-webpack": "^7.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "html-react-parser": "^4.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "tailwindcss": "^3.1.4",
+    "test-button": "file:/Users/fred/Documents/Development/test/test-button/dist",
+    "universal-cookie": "^4.0.4"
+  }
+}
