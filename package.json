@@ -19,6 +19,7 @@
     "@reduxjs/toolkit": "^1.8.2",
     "@types/node": "^18.0.0",
     "@types/react-dom": "^18.0.5",
+    "@types/lc_web_ux": "file:~/Development/DoshX/LetsTrade/lc_web_ux/dist/esm/index.d.ts",
     "autoprefixer": "^10.4.7",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
@@ -44,7 +45,7 @@
     "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0",
     "tailwindcss": "^3.1.4",
-    "test-button": "file:/Users/fred/Documents/Development/test/test-button/dist",
+    "lc_web_ux": "file:~/Development/DoshX/LetsTrade/lc_web_ux/dist",
     "universal-cookie": "^4.0.4"
   }
 }

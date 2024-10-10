@@ -69,7 +69,7 @@ module.exports = async (env, args) => {
       new HtmlWebpackPlugin({
         filename: "index.html",
         template: "./app/index.html",
-        favicon: "./app/assets/favicon.png",
+        // favicon: "./app/assets/favicon.png",
       }),
       new Dotenv({
         path: envPath,
