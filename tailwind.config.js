@@ -1,9 +1,10 @@
 const colors = require("./colors.config");
+const { nextui } = require("@nextui-org/react");
 
 module.exports = {
   important: true, //"#root",
   mode: "jit",
-  content: ["./app/**/*.{html,js,jsx,ts,tsx}"],
+  content: ["./app/**/*.{html,js,jsx,ts,tsx}", "./node_modules/@nextui-org/theme/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       backgroundColor: colors,
@@ -11,5 +12,6 @@ module.exports = {
       borderColor: colors,
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()],
 };
